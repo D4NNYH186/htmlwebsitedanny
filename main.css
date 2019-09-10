@@ -1,9 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
-h1, p {
+ h1, p{ box-sizing: border-box;
+    padding: 25px;
+ }
+
+* {
     font-family: 'Ubuntu', sans-serif;
+
 }
 
+.box {
+    color:black;
+    font-size: 25px;
+    text-align: center;
+    padding:25px;
+    width: 400px
+}
+  
+  .box1 { background:teal;}
+  .box2 { background:grey;}
+  .box3 { background:teal;}
+  .box4 { background:grey;}
+  .box5 { background:teal;}
+
+a:link {
+    color:black;
+}
+  
+a:visited {
+    color:black
+}
+
+.container {
+    display: flex;
+}
 .center {
     text-align:center;
 }
@@ -16,13 +46,19 @@ h1, p {
   }
 
 body * {
-    
-    background-color: rgba(255, 99, 71, 0.8)
+    background-color: rgba(255, 255, 255, 0.8)
 }
-body {
+
+.firstPageImg {
     background-image: url(images/giphy.gif);
     /* background-position:  */
     background-size: 100% 100%; 
     background-repeat: no-repeat;
      
 } 
+.secondPageImg {
+    background-image: url(images/joydiv.gif);
+    /* background-position:  */
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
