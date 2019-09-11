@@ -45,7 +45,7 @@ a:visited {
     width: 25%;
   }
 
-body * {
+.backgroundColor{
     background-color: rgba(255, 255, 255, 0.8)
 }
 
