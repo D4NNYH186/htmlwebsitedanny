@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 p { box-sizing: border-box;
     padding: 50px;
  }
@@ -61,4 +65,19 @@ a:visited {
     /* background-position:  */
     background-size: 100% 100%; 
     background-repeat: no-repeat;
+}
+.thirdPageImg {
+    background-image: url(images/destiny.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.refPageImg {
+background-image: url(images/reference.gif);
+background-size: 100% 100%;
+background-repeat: no-repeat;    
+}
+.conPageImg {
+background-image: url(images/floyd.gif);
+background-size: 100% 100%;
+background-repeat: no-repeat;    
 }
