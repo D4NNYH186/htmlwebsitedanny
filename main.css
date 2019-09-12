@@ -20,6 +20,14 @@ p { box-sizing: border-box;
     padding:25px;
     width: 400px
 }
+.box1 {
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    padding:25px;
+    width: 6.66%;   
+}
+
   
   .box1 { background:teal;}
   .box2 { background:grey;}
@@ -36,6 +44,9 @@ a:visited {
 }
 
 .container {
+    display: flex;
+}
+.container1{
     display: flex;
 }
 .center {
